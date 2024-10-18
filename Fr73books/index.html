@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fr73books</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Programação</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Front-end</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Infraestrutura</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Business</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Design & UX</a></li>
+      </ul>
+      <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+      <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
+      <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">Mergulhe na nossa estante e descubra novas aventuras e diversão através da leitura!</p>
+    <input type="search" class="banner__pesquisa" placeholder="PESQUINE AQUI">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Novos lançamentos</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Doctor-Who-cidade-Douglas-Adams/dp/8581053130">
+            <img src="img/Doctor who -Morte.svg" alt="Livro de ficção científica e reflexões profundas do Fr73books">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Doctor-Who-quando-outras-hist%C3%B3rias/dp/8581052258/ref=pd_sim_d_sccl_2_6/146-5188170-5233429?pd_rd_w=cH7NQ&content-id=amzn1.sym.8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_p=8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_r=0HDYNYGWPP18DR97K0S1&pd_rd_wg=AyhvN&pd_rd_r=36f98925-1175-483e-837c-42433e4dabef&pd_rd_i=8581052258&psc=1">
+            <img src="img/Doctor who-quando cair o verão.svg" alt="Livro é uma coleção de contos inspirados na série britânica Doctor Who do Fr73books">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Doctor-Who-Secret-Lives-Monsters/dp/0062348868">
+            <img src="img/Doctor who-Monsters.svg" alt="Livro que reúne contos baseados nos icônicos vilões e criaturas do universo de Doctor Who">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Doctor-Who-V%C3%A1rios-Autores/dp/8568263046/ref=pd_sim_d_sccl_2_1/146-5188170-5233429?pd_rd_w=t7xoj&content-id=amzn1.sym.8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_p=8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_r=5DE5MSMYW3QRN8XA69XN&pd_rd_wg=pjahl&pd_rd_r=5f3ae476-a583-463e-ab3e-e47e9e5b1765&pd_rd_i=8568263046&psc=1">
+            <img src="img/Doctor Who 12 Doutores, 12 histórias.svg" alt="Livro é uma coletânea que apresenta doze contos, cada um focado em um dos Doutores da série, desde o Primeiro até o Décimo Segundo do Fr73books">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Doctor-Who-Shada-Douglas-Adams/dp/8581051995/ref=pd_sim_d_sccl_2_3/146-5188170-5233429?pd_rd_w=YIGna&content-id=amzn1.sym.8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_p=8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_r=KYW8DRQT7XNH9WSQMXVW&pd_rd_wg=3mwQR&pd_rd_r=2caaf771-5d36-47e3-baf4-863f06188af2&pd_rd_i=8581051995&psc=1">
+            <img src="img/Doctor who-shada.svg" alt="Livro de romance baseado em um roteiro não produzido da série Doctor Who, escrito por Douglas Adams do Fr73books">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Doctor-Who-History-Critical-Imagining/dp/1476666563">
+            <img src="img/Doctor who-Historias.svg" alt="Livro é uma coleção de ensaios que examina como Doctor Who aborda e interpreta eventos históricos">
+          </a>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+          <h2 class="descrição__titulo-livro">Big Finish</h2>
+          <p class="descrição__texto">
+            Explorando novos mundos sonoros com as produções da Big Finish.
+          </p>
+        </div>
+        <img src="img/Big Finish.svg" class="descrição__imagem" />
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+            <img src="img/Favoritos.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botões__item">
+            <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+          </li>
+        </ul>
+        <a href="https://www.bigfinish.com/" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Mais vendidos</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Doctor-Who-cidade-Douglas-Adams/dp/8581053130">
+            <img src="img/Doctor who -Morte.svg" alt="Livro de ficção científica e reflexões profundas do Fr73books">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Doctor-Who-quando-outras-hist%C3%B3rias/dp/8581052258/ref=pd_sim_d_sccl_2_6/146-5188170-5233429?pd_rd_w=cH7NQ&content-id=amzn1.sym.8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_p=8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_r=0HDYNYGWPP18DR97K0S1&pd_rd_wg=AyhvN&pd_rd_r=36f98925-1175-483e-837c-42433e4dabef&pd_rd_i=8581052258&psc=1">
+            <img src="img/Doctor who-quando cair o verão.svg" alt="Livro é uma coleção de contos inspirados na série britânica Doctor Who do Fr73books">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Doctor-Who-Secret-Lives-Monsters/dp/0062348868">
+            <img src="img/Doctor who-Monsters.svg" alt="Livro que reúne contos baseados nos icônicos vilões e criaturas do universo de Doctor Who">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Doctor-Who-V%C3%A1rios-Autores/dp/8568263046/ref=pd_sim_d_sccl_2_1/146-5188170-5233429?pd_rd_w=t7xoj&content-id=amzn1.sym.8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_p=8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_r=5DE5MSMYW3QRN8XA69XN&pd_rd_wg=pjahl&pd_rd_r=5f3ae476-a583-463e-ab3e-e47e9e5b1765&pd_rd_i=8568263046&psc=1">
+            <img src="img/Doctor Who 12 Doutores, 12 histórias.svg" alt="Livro é uma coletânea que apresenta doze contos, cada um focado em um dos Doutores da série, desde o Primeiro até o Décimo Segundo do Fr73books">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Doctor-Who-Shada-Douglas-Adams/dp/8581051995/ref=pd_sim_d_sccl_2_3/146-5188170-5233429?pd_rd_w=YIGna&content-id=amzn1.sym.8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_p=8555f615-361b-42f7-96c4-206bb8a5174e&pf_rd_r=KYW8DRQT7XNH9WSQMXVW&pd_rd_wg=3mwQR&pd_rd_r=2caaf771-5d36-47e3-baf4-863f06188af2&pd_rd_i=8581051995&psc=1">
+            <img src="img/Doctor who-shada.svg" alt="Livro de romance baseado em um roteiro não produzido da série Doctor Who, escrito por Douglas Adams do Fr73books">
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://www.amazon.com.br/Doctor-Who-History-Critical-Imagining/dp/1476666563">
+            <img src="img/Doctor who-Historias.svg" alt="Livro é uma coleção de ensaios que examina como Doctor Who aborda e interpreta eventos históricos">
+          </a>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+          <h3 class="descrição__titulo">Autor do Mês</h3>
+          <h2 class="descrição__titulo-livro">Douglas Adams</h2>
+          <p class="descrição__texto">Douglas Noël Adams foi um escritor e comediante britânico, famoso por ter escrito esquetes para a série televisiva Monty Python's Flying Circus, junto com os integrantes desse grupo de humor nonsense, e pela série de rádio, jogos e livros The Hitchhiker's Guide to the Galaxy.</p>
+        </div>
+        <img src="img/Escritor.svg" class="descrição__imagem">
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+            <img src="img/Favoritos.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botões__item">
+            <img src="img/Compras.svg" alt="Adicionar no carrinho de compras" />
+          </li>
+        </ul>
+        <a href="https://pt.wikipedia.org/wiki/Douglas_Adams" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Ficção</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Doctor Who</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Aventura</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Viagem no tempo</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Doutor quem</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Spin-offs</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Tardis</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Showrunners</a></li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Alura</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
